@@ -14,12 +14,21 @@ html {
   flex-direction: column;
 }
 
-@media (min-width: 40em) {
+.footer-info {
+  margin-top: 1em;
+}
+
+.footer-services p {
+  margin: 0;
+}
+
+@media (min-width: 30em) {
   .footer-component {
     flex-direction: row;
     justify-content: center;
   }
   .footer-info {
-    margin-left: 2em;
+    margin-top: 0;
+    margin-left: 5em;
   }
 }

@@ -4,7 +4,7 @@ export default function Footer() {
     return (
             <div className="footer-component mt-5">
                 <div className="footer-services">
-                    <h5>Hope Hauling's Hauling Services</h5>
+                    <h5>Removal Services</h5>
                     <p>Furniture Removal</p>
                     <p>Garage Clean Out</p>
                     <p>Storage Unit Clean Out</p>
