@@ -1,0 +1,14 @@
+#landing-picture {
+  max-width: 100%;
+}
+
+#jumbotron {
+  position: relative;
+}
+
+#form-container {
+  position: absolute;
+  top: 100px;
+  right: 50px;
+  max-width: 300px;
+}
