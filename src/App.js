@@ -1,17 +1,19 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavbarComponent from "./components/Navbar"
-import TractorDumpster from "./images/tractor-dumpster.jpg"
+import JumbotronComponent from "./components/Jumbotron"
 import FormComponent from './components/Form';
+import About from './components/About';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
       <NavbarComponent />
-      <div id="jumbotron">
-        <img id="landing-picture" src={TractorDumpster} alt="Hauling" />
-        <FormComponent />
-      </div>
+      <JumbotronComponent />
+      <About />
+      <FormComponent />
+      <Footer />
     </div>
   );
 }

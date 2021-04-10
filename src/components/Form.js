@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Form, Button } from "react-bootstrap"
+import { Form, Button } from "react-bootstrap"
 
 export default function FormComponent() {
 
@@ -9,7 +9,8 @@ export default function FormComponent() {
     }
 
     return (
-        <Container id="form-container" >
+        <div className="container-section">
+            <h3>Email us for an estimate</h3>
             <Form onSubmit={handleSubmit}>
                 <Form.Group controlId="exampleForm.ControlInput1">
                     <Form.Label>Email address</Form.Label>
@@ -23,6 +24,6 @@ export default function FormComponent() {
                     Submit
                 </Button>
             </Form>
-        </Container>
+        </div>
     )
 }
