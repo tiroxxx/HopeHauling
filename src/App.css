@@ -4,10 +4,12 @@
   rgba(255, 255, 255, 0.25)),
     url("./images/tractor-dumpster.jpg") center center;
   background-size: cover;
-  height: 200px;
+  height: 100%;
   align-items: center;
 }
 
+
+
 .footer-component {
-  
+
 }
