@@ -2,9 +2,8 @@ import React from 'react'
 
 export default function Footer() {
     return (
-        <div className="container-fluid px-0">
-            <div className="row footer-component mt-5">
-                <div className="col">
+            <div className="footer-component mt-5">
+                <div className="footer-services">
                     <h5>Hope Hauling's Hauling Services</h5>
                     <p>Furniture Removal</p>
                     <p>Garage Clean Out</p>
@@ -12,7 +11,7 @@ export default function Footer() {
                     <p>Foreclosure Clean Out</p>
                     <p>Office Clean Out</p>
                 </div>
-                <div className="col-sm-4">
+                <div className="footer-info">
                     <h5>Hope Hauling</h5>
                     <p style={{ margin: "0", fontWeight: "700" }}>Call us at</p>
                     <p>123-456-7890</p>
@@ -22,7 +21,5 @@ export default function Footer() {
                     <a href="http://localhost:3000/">Instagram</a> <br />
                 </div>
             </div>
-        </div>
-
     )
 }
