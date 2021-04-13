@@ -2,6 +2,21 @@ html {
   margin: 0;
 }
 
+h1 {
+  color: #9b8567;
+}
+
+p {
+  font-family: 'Questrial', sans-serif;
+}
+
+.services-component {
+  font-family: 'Anton', sans-serif;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+}
+
 .background-image-section {
   background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url("./images/tractor-dumpster.jpg") center center;
   background-size: cover;
@@ -10,12 +25,30 @@ html {
 }
 
 .footer-component {
+  padding: 2em;
   display: flex;
   flex-direction: column;
+  background-color: lightgrey;
+}
+
+.footer-component h5 {
+  font-family: 'Anton', sans-serif;
+  color: #9b8567;
 }
 
 .footer-info {
   margin-top: 1em;
+}
+
+.footer-info a {
+  text-decoration: none;
+  color: #9b8567;
+  font-weight: 900;
+}
+
+.footer-info a:hover {
+  text-decoration: none;
+  color: grey;
 }
 
 .footer-services p {

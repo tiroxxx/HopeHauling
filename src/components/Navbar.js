@@ -5,7 +5,7 @@ export default function NavbarComponent() {
     return (
         <>
             <Navbar collapseOnSelect expand="md" bg="transparent" variant="light">
-                <Navbar.Brand href="#home">Hope Hauling</Navbar.Brand>
+                <Navbar.Brand href="#home">Hope's Hauling</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
                     <Nav >

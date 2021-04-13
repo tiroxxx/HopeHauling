@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function About() {
     return (
-        <div>
-            <h1>About Us</h1>
+        <div className="container">
+            <h1 style={{ fontFamily: "Anton, sans-serif"}}>About Us</h1>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Quisque porttitor neque ultrices vehicula molestie.

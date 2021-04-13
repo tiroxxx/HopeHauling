@@ -12,7 +12,7 @@ export default function Footer() {
                     <p>Office Clean Out</p>
                 </div>
                 <div className="footer-info">
-                    <h5>Hope Hauling</h5>
+                    <h5>Hope's Hauling</h5>
                     <p style={{ margin: "0", fontWeight: "700" }}>Call us at</p>
                     <p>123-456-7890</p>
                     <a href="http://localhost:3000/">Pricing</a> <br />

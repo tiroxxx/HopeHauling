@@ -5,6 +5,7 @@ import JumbotronComponent from "./components/Jumbotron"
 import FormComponent from './components/Form';
 import About from './components/About';
 import Footer from './components/Footer';
+import Services from './components/Services';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <NavbarComponent />
       <JumbotronComponent />
       <About />
+      <Services />
       <FormComponent />
       <Footer />
     </div>

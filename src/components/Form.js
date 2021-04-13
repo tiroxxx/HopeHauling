@@ -9,7 +9,7 @@ export default function FormComponent() {
     }
 
     return (
-        <div className="container-section">
+        <div className="container">
             <h3>Email us for an estimate</h3>
             <Form onSubmit={handleSubmit}>
                 <Form.Group controlId="exampleForm.ControlInput1">
