@@ -55,6 +55,18 @@ p {
   margin: 0;
 }
 
+#contact-component {
+  max-width: 500px;
+}
+
+
+@media (min-width: 40em) {
+
+  .services-component {
+    flex-direction: row;
+  }
+}
+
 @media (min-width: 30em) {
   .footer-component {
     flex-direction: row;
